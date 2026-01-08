@@ -4,7 +4,7 @@ set -e
 
 # ------------------ Variables ----------------- #
 # Pterodactyl versions
-export PTERODACTYL_PANEL_VERSION=""
+export PTERODACTYL_PANEL_VERSION="v1.11.11"
 export PTERODACTYL_WINGS_VERSION=""
 
 # Path (export everything that is possible, doesn't matter that it exists already)
@@ -20,7 +20,7 @@ export SUPPORTED=false
 # download URLs
 export PANEL_DL_URL="https://github.com/pterodactyl/panel/releases/download/v1.11.11/panel.tar.gz"
 export WINGS_DL_URL="https://github.com/pterodactyl/wings/releases/latest/download/wings_linux_"
-export GIT_REPO_URL="https://raw.githubusercontent.com/ForestRacks/PteroInstaller/Production"
+export GIT_REPO_URL="https://raw.githubusercontent.com/mzgamingvns/PteroInstaller/Production"
 
 # Colors
 COLOR_YELLOW='\033[1;33m'
